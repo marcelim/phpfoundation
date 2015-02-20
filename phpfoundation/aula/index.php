@@ -11,10 +11,10 @@
 
     <div class="container">
         <?php
-            $pagina = $_GET["arq"];
+            $pagina = filter_input(INPUT_GET, 'arq', FILTER_SANITIZE_SPECIAL_CHARS);
 
             if (empty($pagina)){
-                require_once("index.php?arq=home.php");
+                require_once("home.php");
             }elseif ($pagina == 'home.php'){
                 require_once($_GET["arq"]);
             }elseif ($pagina == 'empresa.php'){

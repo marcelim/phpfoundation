@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Instruções Iniciais
 
 iniciar um repositorio git
@@ -29,3 +30,7 @@ enviar arquivo para repositorio central
 ```
 git push origin master
 ```
+=======
+# phpfoundation
+PHP - Foundation
+>>>>>>> c14fbbea7f091eb59453e364233c2d98acdfecce
